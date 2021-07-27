@@ -1,0 +1,949 @@
+/*-------------------------------------------navbar-------------------------------*/
+@media (max-width: 991px){
+    .login-border{
+        margin: 20px 0px;
+        text-align: center;
+        border-radius: 500px;
+        width: 100px;
+        margin: 10px  auto;
+        padding: 0 80px;
+    }
+    .log-out-border{
+        margin: 20px 0px;
+        text-align: center;
+        border-radius: 500px;
+        width: 100px;
+        margin: 10px auto ;
+        padding: 0 80px;
+    } 
+    .nav-element:hover{
+        border-bottom: none;
+    }
+}
+@media (min-width: 992px) and (max-width: 1095px){
+    .nav-element{
+        margin: 0;
+    }
+    .nav-element-spacial1 {
+        margin: 0 10px;
+    }
+    .nav-element-spacial2{
+        margin: 0 10px;
+    }
+
+}
+/*-------------------------------------------navbar close------------------------------------------*/
+/*-------------------------------------------header start-----------------------------------------*/
+@media (max-width: 355px){
+   
+
+    .hero{
+       width: 300px;
+    }
+    .heder-titel {
+        font-size: 23px;
+        position: relative;
+        top: -80px;
+        left: -20px;
+}
+.header-para {
+    position: relative;
+    font-size: 13px;
+    color: #250C77;
+    top: -75px;
+    left: -50px;
+}
+}
+@media (min-width: 356px) and (max-width: 453px){
+    .card{
+        width: 12rem !important;
+        height: 230px;
+    }
+    .container {
+        overflow:hidden;
+    }
+    .home-special{
+        position: relative;
+        top: 15px;
+    }
+    .hero{
+       width: 340px;
+    }
+    .heder-titel {
+        font-size: 23px;
+        position: relative;
+        top: -60px;
+        left: -40px;
+}
+.header-para {
+    position: relative;
+    font-size: 13px;
+    color: #250C77;
+    top: -60px;
+    left: -74px;
+}
+.product-para {
+    font-size: 12px;
+    left: 10px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: rgba(0,0,0,.1);
+    position: relative;
+    right: -80px;
+}
+.contact-form {
+    position: relative;
+    left: 20px;
+    text-align: justify;
+    margin: 12px;
+    width: 271px;
+    height: 30px;
+    border-bottom: 3px solid #250C77;
+    box-shadow: 1px #250C77 !important;
+}
+.contact-form-special {
+    position: relative;
+    top: 0px;
+    left: 135px;
+}
+.footer-link {
+    text-align: center;
+    /* float: left; */
+    font-size: 12px;
+    text-decoration: none;
+    color: #ED642B;
+    margin: 0px 5px;
+}
+footer {
+    background-color: #415670;
+    height: 82px;
+    position: relative;
+    overflow: hidden;
+}
+.h2-para {
+    text-align: center;
+    font-size: 23px;
+    padding: 11px;
+}
+.clint-para {
+    font-size: 23px;
+}
+.card-title {
+    font-size: 14px;
+    text-align: center;
+}
+.card-text {
+    font-size: 10px;
+    color: #ED642B;
+    text-align: center;
+}
+.card-img-top {
+    width: 75px;
+    margin: 10px auto;
+}
+.client-img {
+    width: 189px;
+    height: 60px;
+    float: left;
+    float: right;
+    margin: 20px auto;
+}
+#contact-logo {
+    height: 20px;
+    width: 42px;
+    position: relative;
+    top: 27px;
+    left: 54px;
+}
+.socal1,.socal2,.socal3{
+    height: 30px;
+    top: 35px;
+    left: 90px;
+}
+.contact{
+
+    height: 490px;
+}
+.address-para {
+    font-size: 12px;
+    top: 0px;
+    left: 90px;
+}
+.footer-para {
+    font-size: 12px;
+    color: white;
+    position: relative;
+    right: -35px; 
+}
+.tech-title {
+    left: -47px;
+}
+.product-link {
+    
+    font-size: 14px;
+}
+.tech-card {
+    background-color: #ED642B;
+    height: 120px !important;
+}
+.wellcome-img {
+    display: block;
+    width: 306px !important;
+    margin: 14px 10px;
+}
+.login {
+    display: block;
+    width: 338px;
+    position: relative;
+    top: -99px;
+    border: 1px solid;
+    margin: 100px 9px;
+    background-color: #250C77;
+    height: 320px;
+    box-shadow: 5px 6px 6px #ed642b;
+    margin-bottom: 0px;
+}
+
+.log-btn {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ED642B;
+    padding: 10px 50px;
+    margin-right: -3px;
+    width: 146px;
+    margin-top: 16px;
+    margin-left: 0px;
+}
+.sign-btn {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #415670;
+    padding: 10px 33px;
+    margin-left: -3px;
+    width: 146px;
+    margin-top: 16px;
+}
+.form-fill {
+    width: 258px;
+}
+.forget-password {
+    text-align: end;
+    color: white;
+    font-size: 12px;
+    margin-right: 65px;
+    text-decoration: none;
+    position: relative;
+    left: 65%;
+}
+.log-btn1 {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #415670;
+    padding: 10px 55px;
+    margin-right: -3px;
+    width: 152px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+.sign-btn1 {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ED642B;
+    padding: 10px 49px;
+    margin-left: 0px;
+    width: 152px;
+    margin-top: 30px;
+}
+.name {
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    font-size: 20px;
+    text-align: center;
+    width: 154px;
+}
+#fname {
+     margin-left: 0px;
+}
+.form-fill {
+    width: 310px;
+    margin-left: 0px;
+}
+.login1 {
+    display: block;
+    width: 339px;
+    border: 1px solid;
+    margin: 8px 6px;
+    background-color: #250C77;
+    height: 389px;
+    box-shadow: 5px 6px 6px #ed642b;
+}
+.product-1, .product-3 {
+    display: block;
+    width: 305px;
+    height: 290px;
+    margin-left: 91px;
+    float: left;
+    background-color: #e6e6e6;
+    border: 1px solid #e6e6e6;
+    margin-top: -53px;
+    box-shadow: 3px 3px #250c77;
+    position: relative;
+    left: -58px;
+}
+.product-2 {
+    display: block;
+    width: 305px;
+    height: 319px;
+    float: left;
+    background-color: #e6e6e6;
+    border: 1px solid #e6e6e6;
+    margin-top: 65px;
+    box-shadow: -3px 3px #250c77;
+    position: relative;
+    left: 50px;
+    top: 290px;
+}
+.product-2-img {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    margin: 39px;
+    top: -302px;
+}
+}
+@media (min-width: 454px) and (max-width: 465px){
+    .login1 {
+        display: block;
+        width: 339px;
+        border: 1px solid;
+        margin: 8px 6px;
+        background-color: #250C77;
+        height: 389px;
+        box-shadow: 5px 6px 6px #ed642b;
+    }
+    .wellcome-img {
+        display: block;
+        width: 306px !important;
+        margin: 14px 10px;
+    }
+    .login {
+        display: block;
+        width: 338px;
+        position: relative;
+        top: -99px;
+        border: 1px solid;
+        margin: 100px 9px;
+        background-color: #250C77;
+        height: 320px;
+        box-shadow: 5px 6px 6px #ed642b;
+        margin-bottom: 0px;
+    }
+    .form-fill {
+        width: 258px;
+    }
+    .forget-password {
+        text-align: end;
+        color: white;
+        font-size: 12px;
+        margin-right: 65px;
+        text-decoration: none;
+        position: relative;
+        left: 65%;
+    }
+    .log-btn1 {
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        background-color: #415670;
+        padding: 10px 55px;
+        margin-right: -3px;
+        width: 152px;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .sign-btn1 {
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        background-color: #ED642B;
+        padding: 10px 49px;
+        margin-left: 0px;
+        width: 152px;
+        margin-top: 30px;
+    }
+    .name {
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+        font-size: 20px;
+        text-align: center;
+        width: 154px;
+    }
+    #fname {
+         margin-left: 0px;
+    }
+    .form-fill {
+        width: 310px;
+        margin-left: 0px;
+    }
+    .log-btn {
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        background-color: #ED642B;
+        padding: 10px 50px;
+        margin-right: -3px;
+        width: 146px;
+        margin-top: 16px;
+        margin-left: 0px;
+    }
+    .sign-btn {
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        background-color: #415670;
+        padding: 10px 33px;
+        margin-left: -3px;
+        width: 146px;
+        margin-top: 16px;
+    }
+}
+@media (min-width: 466px) and (max-width: 1199px){
+    .wellcome-img {
+        display: block;
+        width: 500px !important;
+        margin: 10px 10px;
+    }
+    .login {
+        display: block;
+        width: 488px;
+        border: 1px solid;
+        margin: 31px 20px;
+        background-color: #250C77;
+        height: 400px;
+        box-shadow: 5px 6px 6px #ed642b;
+    }
+    .login1 {
+        display: block;
+        width: 480px;
+        border: 1px solid;
+        margin: 45px 20px;
+        background-color: #250C77;
+        height: 450px;
+        box-shadow: 5px 6px 6px #ed642b;
+    }
+}
+@media (max-width: 767px){
+    .card{
+        margin: 10px auto;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .card{
+        width: 18rem !important;
+    }
+    ion-icon {
+        left: 233px;
+        top: -32px;
+    }
+}
+@media (max-width: 620px){
+   
+    ion-icon {
+        visibility: hidden;
+        left: 146px;
+        top: -16px;
+    }
+
+}
+
+
+@media (min-width: 454px) and (max-width: 767px){
+    .product-1, .product-3 {
+        display: block;
+        width: 305px;
+        height: 290px;
+        margin-left: 91px;
+        float: left;
+        background-color: #e6e6e6;
+        border: 1px solid #e6e6e6;
+        margin-top: -53px;
+        box-shadow: 3px 3px #250c77;
+        position: relative;
+        left: -58px;
+    }
+    .product-2 {
+        display: block;
+        width: 305px;
+        height: 319px;
+        float: left;
+        background-color: #e6e6e6;
+        border: 1px solid #e6e6e6;
+        margin-top: 65px;
+        box-shadow: -3px 3px #250c77;
+        position: relative;
+        left: 50px;
+        top: 290px;
+    }
+    .product-2-img {
+        width: 300px;
+        height: 250px;
+        position: relative;
+        margin: 39px;
+        top: -302px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .product-1, .product-3 {
+        display: block;
+        width: 600px;
+        height: 200px;
+        float: left;
+        background-color: #e6e6e6;
+        border: 1px solid #e6e6e6;
+        margin-top: 65px;
+        box-shadow: 3px 3px #250c77;
+        position: relative;
+        left: 63px;
+        top: -131px;
+    }
+    .product-2-img {
+        width: 300px;
+        height: 250px;
+        position: relative;
+        margin: 39px;
+        top: -287px;
+        left: 308px;
+    }
+    
+.product-2 {
+    display: block;
+    width: 600px;
+    height: 200px;
+    float: left;
+    background-color: #e6e6e6;
+    border: 1px solid #e6e6e6;
+    margin-top: 65px;
+    box-shadow: -3px 3px #250c77;
+    position: relative;
+    left: 50px;
+    top: 187px;
+}
+}
+@media (min-width: 386px) and (max-width: 453px){
+    .contact-form-special {
+        position: relative;
+        top: 17px;
+        left: -172px;
+    }
+}
+@media (min-width: 454px) and (max-width: 767px){
+    .heder-titel {
+        font-size: 30px;
+        position: relative;
+        margin-bottom: 20px;
+        top: -66px;
+        left: -20px;
+    }
+    .header-para {
+        position: relative;
+        top: -67px;
+        left: 21px;
+        left: -42px;
+        font-size: 16px;
+        color: #250C77;
+    }
+    .hero {
+        width: 444px;
+    }
+    .product-para {
+        font-size: 16px;
+        left: 18px;
+    }
+
+}
+@media (min-width: 454px) and (max-width: 610px){
+    .contact-form {
+        position: relative;
+        left: 100px;
+    }
+    .contact-form-special {
+        position: relative;
+        top: 35px;
+        left: -115px;
+    }
+    .contact {
+        background-image: url(./CONTACT\ BACK.jpeg);
+        border: 1px solid #EFEFF0;
+        box-shadow: 1px;
+        overflow: hidden;
+        height: 682px;
+    }
+    .address-para {
+        font-size: 18px;
+        color: #250C77;
+        float: left;
+        position: relative;
+        top: 14px;
+        left: 188px;
+        font-weight: 400;
+    }
+    #contact-logo {
+        height: 38px;
+        width: 60px;
+        position: relative;
+        top: 62px;
+        left: 123px;
+    }
+    .socal1,.socal2,.socal3 {
+        height: 40px;
+        position: relative;
+        top: 41px;
+        left: 164px;
+    }
+    .footer-link {
+        float: left;
+        font-size: 16px;
+        text-decoration: none;
+        color: #ED642B;
+        margin: 6px 5px;
+    }
+    .footer-para {
+        font-size: 16px;
+        float: left;
+        color: white;
+        margin: 20px;
+        position: relative;
+        right: -50px;
+        top: -20px;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: rgba(0,0,0,.1);
+        position: relative;
+        left: 123px;
+    }
+    .container {
+        overflow:hidden;
+    }
+    .home-special{
+        position: relative;
+        top: 15px;
+    }
+    footer {
+        background-color: #415670;
+        height: 95px;
+        overflow: hidden;
+    }
+    
+}
+
+@media (min-width: 611px) and (max-width: 767px){
+    .contact {
+        background-image: url(./CONTACT\ BACK.jpeg);
+        border: 1px solid #EFEFF0;
+        box-shadow: 1px;
+        overflow: hidden;
+        height: 700px;
+    }
+    .address {
+        position: relative;
+        margin-bottom: -30px;
+        top: 71px;
+        left: 203px;
+    }
+    .socal1,.socal2,.socal3 {
+        height: 40px;
+        position: relative;
+        top: 50px;
+        left: 264px;
+    }
+    .contact-form {
+        position: relative;
+        left: 167px;
+        text-align: justify;
+        margin: 18px;
+        width: 300px;
+        height: 40px;
+        border-bottom: 5px solid #250C77;
+        box-shadow: 1px #250C77 !important;
+    }
+    .contact-form-special {
+        position: relative;
+        top: 35px;
+        left: -34px;
+        border-color: #250C77;
+        border-radius: 100px;
+        padding: 5px 20px;
+        background-color: #ED642B;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+    }
+    .footer-link {
+        float: left;
+        font-size: 18px;
+        text-decoration: none;
+        color: #ED642B;
+        margin: 20px 10px;
+    }
+    footer {
+        background-color: #415670;
+        height: 100px;
+        overflow: hidden;
+    }
+    .footer-para {
+        font-size: 20px;
+        float: left;
+        color: white;
+        margin: 20px;
+        position: relative;
+        right: -109px;
+        top: -34px;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: rgba(0,0,0,.1);
+        position: relative;
+        left: 203px;
+    }
+}
+@media (min-width: 768px) and (max-width:874px){
+    .heder-titel {
+        font-size: 25px;
+        margin-bottom: 20px;
+        position: relative;
+        left: -53px;
+    }
+    .header-para {
+        position: relative;
+        left: -60px;
+        font-size: 20px;
+        color: #250C77;
+    }
+    .hero {
+        width: 490px;
+        position: relative;
+        left: -118px;
+    }
+    .contact-form {
+        position: relative;
+        left: 7px;
+        text-align: justify;
+        margin: 18px;
+        width: 300px;
+        height: 40px;
+        border-bottom: 5px solid #250C77;
+        box-shadow: 1px #250C77 !important;
+    }
+    .contact-form-special {
+        position: relative;
+        top: -7px;
+        left: 125px;
+    }
+    
+    .footer-link {
+        float: left;
+        font-size: 20px;
+        text-decoration: none;
+        color: #ED642B;
+        margin: 10px 20px 0px 20px;
+    }
+    footer {
+        background-color: #415670;
+        height: 98px;
+    }
+    .product-para {
+        font-size: 18px;
+        color: #250C77;
+        font-weight: 400;
+        text-align: center;
+        width: 900px;
+        display: block;
+        position: relative;
+        left: 14px;
+    }
+    .tech-title {
+        font-size: 13px;
+        color: white;
+        font-weight: 700;
+        position: relative;
+        top: 46px;
+        left: -60px;
+    }
+    .container{
+        overflow: hidden;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: rgba(0,0,0,.1);
+        position: relative;
+        left: 281px;
+    }
+    .footer-para {
+        font-size: 20px;
+        float: left;
+        color: white;
+        margin: 20px;
+        position: relative;
+        right: -170px;
+        top: -15px;
+    }
+    .home-special{
+        position: relative;
+        top: 15px;
+    }
+}
+@media (min-width: 875px) and (max-width:991px){
+    .heder-titel {
+        font-size: 27px;
+        position: relative;
+        left: -79px;
+        top: -20px;
+    }
+    .hero {
+        width: 450px;
+        position: relative;
+        left: -78px;
+    }
+    .header-para {
+        position: relative;
+        left: -79px;
+        top: -20px;
+    }
+    .tech-title {
+        font-size: 20px;
+        color: white;
+        font-weight: 700;
+        position: relative;
+        top: 46px;
+        left: -45px;
+    }
+    .product-para {
+        left: 2px;
+    }
+    .contact-form {
+        position: relative;
+        left: 80px;
+    }
+    .contact-form-special {
+        position: relative;
+        top: 35px;
+        left: -134px;
+    }
+    footer {
+        background-color: #415670;
+        height: 120px;
+        overflow: hidden;
+    }
+    .footer-para {
+        font-size: 20px;
+        float: left;
+        color: white;
+        margin: 20px;
+        position: relative;
+        right: -170px;
+        top: -30px;
+    }
+    .container{
+        overflow:hidden;
+    }
+    .home-special{
+        position: relative;
+        top: 15px;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: rgba(0,0,0,.1);
+        position: relative;
+        left: 334px;
+    }
+
+}
+@media (min-width: 992px) and (max-width:1199px){
+    .heder-titel {
+        font-size: 36px;
+        margin-bottom: 20px;
+        position: relative;
+        left: -35px;
+    }
+    .header-para {
+        position: relative;
+        left: -28px;
+    }
+    .hero {
+        width: 600px;
+        position: relative;
+        left: -115px;
+    }
+    .tech-title {
+        left: -69px;
+    }
+    .client-img {
+        width: 191px;
+    }
+    .product-para {
+        left: 28px;
+    }
+    .contact-form {
+        position: relative;
+        left: 132px;
+    }
+    .contact-form-special {
+        position: relative;
+        top: 35px;
+        left: -81px;
+    }
+    footer {
+        background-color: #415670;
+        height: 116px;
+        overflow: hidden;
+    }
+    .footer-link {
+        margin: 20px 42px 10px 42px !important;
+    }
+    .footer-para {
+        right: -270px;
+        top: -18px;
+    }
+    .container{
+        overflow: hidden;
+    }
+    .home-special{
+        position: relative;
+        top: 15px;
+    }
+}
+@media (min-width: 1200px) and (max-width:1284px){
+    .contact-form {
+        position: relative;
+        left: 243px;
+    }
+    .contact-form-special {
+        position: relative;
+        top: 35px;
+        left: 50px;
+    }
+    .footer-para {
+        right: -119px;
+    }
+}
